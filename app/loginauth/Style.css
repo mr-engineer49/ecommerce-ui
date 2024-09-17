@@ -1,0 +1,142 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .auth-grid-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .auth-grid-row span {
+    background-color: #f7f7f7;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .auth-grid span {
+    background-color: #ffffff;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .auth-grid a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .auth-grid a:hover {
+    color: #666;
+  }
+
+
+  .auth-grid {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  /* Add some global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+
+  .Link {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Link:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
